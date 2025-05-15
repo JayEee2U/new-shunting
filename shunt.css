@@ -1,0 +1,11 @@
+.container-line__1 {
+  display: flex;
+}
+
+.container-line__2 {
+  display: flex;
+}
+
+input {
+  width: 35%;
+}
