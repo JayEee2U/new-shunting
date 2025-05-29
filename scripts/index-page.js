@@ -334,7 +334,7 @@ let inUse = [
     parkingSpot: '2-18',
   },
   {
-    unit: '',
+    unit: 977361,
     licensePlate: 'CB-66804',
     make: 'GMC',
     model: 'FedEx Ground',
@@ -530,10 +530,6 @@ let spares = [
 
 console.log(inUse);
 
-// inUse.forEach(area => {
-//   console.log(area.workArea);
-// });
-
 const workAreaId = {};
 for (const value of inUse) {
   value.workArea = value.workArea.toLowerCase().replace('-', '');
@@ -548,3 +544,7 @@ for (const value of inUse) {
     input.placeholder = value.unit;
   }
 }
+
+workAreaId.wa102 = 977656;
+
+console.log(workAreaId.wa102);
