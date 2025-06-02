@@ -566,14 +566,21 @@ console.log(units);
 const plates = inUse.map(obj => obj.licensePlate);
 console.log(plates);
 
-for (const search of workAreas) {
-  console.log(search);
-}
+const searchInputValues = [...workAreas, ...units, ...plates];
+console.log(searchInputValues);
 
-for (const search of units) {
-  console.log(search);
-}
+document.querySelector('.enter').addEventListener('click', function (e) {
+  console.log(document.querySelector());
+});
 
-for (const search of plates) {
-  console.log(search);
-}
+// for (const search of workAreas) {
+//   console.log(search);
+// }
+
+// for (const search of units) {
+//   console.log(search);
+// }
+
+// for (const search of plates) {
+//   console.log(search);
+// }
