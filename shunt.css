@@ -5,6 +5,9 @@
 .container-line__2 {
   display: flex;
 }
+.container-line__3 {
+  display: flex;
+}
 
 input {
   width: 35%;
