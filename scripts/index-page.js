@@ -5,13 +5,13 @@ let fedExTrucks = '';
 let inUse = [
   {
     unit: 975622,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-13832',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 1,
-    workArea: 'WA-101',
+    workArea: '',
     status: 'IN SERVICE',
-    parkingSpot: '1-2',
+    parkingSpot: '',
   },
   {
     unit: 975656,
@@ -25,11 +25,11 @@ let inUse = [
   },
   {
     unit: 975630,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-13875',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 2,
-    workArea: 'WA-105',
+    workArea: 'WA-109',
     status: 'IN SERVICE',
     parkingSpot: '1-2',
   },
@@ -49,7 +49,7 @@ let inUse = [
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 3,
-    workArea: 'WA-109',
+    workArea: 'WA-105',
     status: 'IN SERVICE',
     parkingSpot: '1-3',
   },
@@ -69,9 +69,9 @@ let inUse = [
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 4,
-    workArea: 'WA-113',
+    workArea: 'WA-121',
     status: 'IN SERVICE',
-    parkingSpot: '1-4',
+    parkingSpot: '1-6',
   },
   {
     unit: 977852,
@@ -85,7 +85,7 @@ let inUse = [
   },
   {
     unit: 975650,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-19067',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 5,
@@ -105,13 +105,13 @@ let inUse = [
   },
   {
     unit: 975632,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-18999',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 6,
-    workArea: 'WA-121',
+    workArea: 'WA-125',
     status: 'IN SERVICE',
-    parkingSpot: '1-6',
+    parkingSpot: '1-7',
   },
   {
     unit: 975631,
@@ -129,9 +129,9 @@ let inUse = [
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 7,
-    workArea: 'WA-125',
+    workArea: 'WA-101',
     status: 'IN SERVICE',
-    parkingSpot: '1-7',
+    parkingSpot: '1-1',
   },
   {
     unit: 975654,
@@ -145,13 +145,13 @@ let inUse = [
   },
   {
     unit: 975642,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-19056',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 8,
-    workArea: 'WA-129',
+    workArea: '',
     status: 'IN SERVICE',
-    parkingSpot: '1-8',
+    parkingSpot: '',
   },
   {
     unit: 975616,
@@ -169,9 +169,9 @@ let inUse = [
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 9,
-    workArea: 'WA-133',
+    workArea: 'WA-129',
     status: 'IN SERVICE',
-    parkingSpot: '1-9',
+    parkingSpot: '1-8',
   },
   {
     unit: 975633,
@@ -185,37 +185,37 @@ let inUse = [
   },
   {
     unit: 975635,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-19028',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 10,
+    workArea: 'WA-133',
+    status: 'IN SERVICE',
+    parkingSpot: '1-9',
+  },
+  {
+    unit: 975646,
+    licensePlate: 'CA-19060',
+    make: 'FREIGHTLINER',
+    model: '1000',
+    keySlot: 11,
     workArea: 'WA-137',
     status: 'IN SERVICE',
     parkingSpot: '1-10',
   },
   {
-    unit: 975646,
-    licensePlate: 'CA-',
-    make: 'FREIGHTLINER',
-    model: '1000',
-    keySlot: 11,
-    workArea: 'WA-141',
-    status: 'IN SERVICE',
-    parkingSpot: '1-11',
-  },
-  {
     unit: 975638,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-19061',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 12,
-    workArea: 'WA-145',
+    workArea: '',
     status: 'IN SERVICE',
-    parkingSpot: '1-12',
+    parkingSpot: '',
   },
   {
     unit: 975623,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-13833',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 20,
@@ -275,7 +275,7 @@ let inUse = [
   },
   {
     unit: 975636,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-19029',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 26,
@@ -284,18 +284,8 @@ let inUse = [
     parkingSpot: '1-16',
   },
   {
-    unit: 975653,
-    licensePlate: 'CA-',
-    make: 'FREIGHTLINER',
-    model: '1000',
-    keySlot: 34,
-    workArea: 'WA-214',
-    status: 'IN SERVICE',
-    parkingSpot: '2-16',
-  },
-  {
     unit: 970878,
-    licensePlate: 'CA-',
+    licensePlate: '648-9RM',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 27,
@@ -305,7 +295,7 @@ let inUse = [
   },
   {
     unit: 975653,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-19070',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 35,
@@ -315,7 +305,7 @@ let inUse = [
   },
   {
     unit: 975627,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-13872',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 28,
@@ -325,7 +315,7 @@ let inUse = [
   },
   {
     unit: 977863,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-67185',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 36,
@@ -345,17 +335,17 @@ let inUse = [
   },
   {
     unit: 975539,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-13609',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 37,
-    workArea: 'WA-226',
+    workArea: 'WA-113',
     status: 'IN SERVICE',
-    parkingSpot: '2-19',
+    parkingSpot: '1-4',
   },
   {
     unit: 975628,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-13873',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 30,
@@ -395,7 +385,7 @@ let inUse = [
   },
   {
     unit: 975522,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-13568',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 32,
@@ -415,7 +405,7 @@ let inUse = [
   },
   {
     unit: 975644,
-    licensePlate: 'CA-',
+    licensePlate: 'CA-19058',
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 33,
@@ -469,9 +459,9 @@ let inUse = [
     make: 'FREIGHTLINER',
     model: '900',
     keySlot: '',
-    workArea: 'WA-254',
+    workArea: 'WA-145',
     status: 'IN SERVICE',
-    parkingSpot: '',
+    parkingSpot: '1-12',
   },
   {
     unit: 975634,
@@ -482,6 +472,16 @@ let inUse = [
     workArea: 'WA-258',
     status: 'IN SERVICE',
     parkingSpot: '',
+  },
+  {
+    unit: 74513,
+    licensePlate: '',
+    make: '',
+    model: '',
+    keySlot: '',
+    workArea: 'WA-141',
+    status: 'IN SERVICE',
+    parkingSpot: '1-11',
   },
 ];
 
@@ -532,9 +532,9 @@ let spares = [
     make: 'FREIGHTLINER',
     model: '1000',
     keySlot: 14,
-    workArea: 'WA-102',
+    workArea: '',
     status: 'IN SERVICE',
-    parkingSpot: '2-1',
+    parkingSpot: '',
   },
 ];
 
@@ -566,12 +566,12 @@ console.log(units);
 const plates = inUse.map(obj => obj.licensePlate);
 console.log(plates);
 
-const searchInputValues = [...workAreas, ...units, ...plates];
+const searchInputValues = [...workAreas, ...units, ...plates, ...spares];
 console.log(searchInputValues);
 
-document.querySelector('.enter').addEventListener('click', function (e) {
-  console.log(document.querySelector());
-});
+// document.querySelector('.enter').addEventListener('click', function (e) {
+//   console.log(document.querySelector());
+// });
 
 // for (const search of workAreas) {
 //   console.log(search);
