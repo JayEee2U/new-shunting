@@ -1,1 +1,51 @@
 @import 'colors';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(153, 153, 153, 0.007);
+}
+
+.container-line__1 {
+    display: flex;
+    margin-left: 40px;
+}
+
+.container-line__2 {
+    display: flex;
+    margin-left: 40px;
+}
+
+.container-line__3 {
+    display: flex;
+    margin-left: 40px;
+}
+
+h1 {
+    color: $fedex-purple;
+}
+
+input {
+    width: 35%;
+    /* border: ; */
+}
+
+/* .work-area {
+} */
+.line {
+    text-align: center;
+}
+
+.line h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.autocomplete {
+    text-align: center;
+}
+
+label:hover {
+    color: $fedex-orange;
+}
