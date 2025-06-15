@@ -654,6 +654,11 @@ for (const value of inUse) {
   }
 }
 
+const labels = document.querySelectorAll('form label');
+labels.forEach(label => {
+  label.classList.add('work-area');
+});
+
 // for (const value of inUse) {
 //   const input = document.getElementById(value.workArea);
 //   console.log(input);
