@@ -647,6 +647,7 @@ for (const value of inUse) {
 
 console.log(workAreaId);
 
+// prepopulate the placeholder for each work area with the unit numbers
 for (const value of inUse) {
   const input = document.getElementById(value.workArea);
   if (input) {

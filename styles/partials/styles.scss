@@ -6,6 +6,42 @@
     background-color: rgba(153, 153, 153, 0.007);
 }
 
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+input[type=text] {
+    background-color: $fedex-platinum;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: $fedex-blue;
+    color: $fedex-black;
+}
+
+.autocomplete-items {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.autocomplete-items div {
+    cursor: pointer;
+    background-color: $fedex-platinum;
+}
+
+// for hovering over a selection
+.autocomplete-items div:hover {
+    background-color: $fedex-platinum;
+}
+
+// for toggling through selections
+.autocomplete-active {
+    color: $fedex-black;
+}
+
 .container-line__1 {
     display: flex;
     margin-left: 40px;
